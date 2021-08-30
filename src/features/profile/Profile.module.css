@@ -1,0 +1,69 @@
+.wrapper {
+  background-color: #64b5f61A;
+  min-height: 100vh;
+}
+
+.inner {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+.container {
+    display: flex;
+}
+
+.profile {
+    flex-basis: 20%;
+}
+
+.profileInner {
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 2px lightgray;
+}
+
+.edit {
+    flex-basis: 75%;
+}
+
+.editSection {
+    margin-left: 50px;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 2px lightgray;
+}
+
+.names {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.location {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.country {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.emailWrapper {
+    display: flex;
+    padding-right: 10px;
+}
+
+.emailButtons {
+    flex-basis: 30%;
+}
+
+.emailFields {
+    flex-basis: 70%;
+    margin-bottom: 10px;
+}
+
